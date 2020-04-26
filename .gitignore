@@ -1,0 +1,12 @@
+.cache
+public
+node_modules
+.vsode
+.idea/
+*/rewrites.conf
+*/src/data/source/*.json
+*/src/data/search/*.json
+*/reduxcache*/*
+*/src/data/search/*.json
+vendor
+*/vendor

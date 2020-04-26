@@ -1,0 +1,18 @@
+{
+  "name": "gatsby-example-theme",
+  "private": true,
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn workspace irishluck build"
+  },
+  "workspaces": [
+    "gatsby-example-theme",
+    "example-site"
+  ],
+  "dependencies": {
+    "gatsby-plugin-manifest": "^2.2.47",
+    "styled-components": "^5.0.1"
+  }
+}

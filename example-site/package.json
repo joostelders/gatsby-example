@@ -1,0 +1,27 @@
+{
+  "name": "example-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "christopherbiscardi <chris@christopherbiscardi.com> (@chrisbiscardi)",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby clean && gatsby develop",
+    "develop-net": "gatsby clean && gatsby develop -H 0.0.0.0",
+    "develop-preview": "gatsby clean; GATSBY_PREVIEW_MODE=true gatsby develop",
+    "build": "gatsby clean && gatsby build",
+    "build-preview": "gatsby clean; GATSBY_PREVIEW_MODE=true gatsby build",
+    "serve": "gatsby clean && gatsby build && gatsby serve"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "esm": "^3.2.25",
+    "gatsby": "^2.19.7",
+    "gatsby-example-theme": "^1.0.0",
+    "react": "^16.12.0",
+    "react-countup": "^4.3.3",
+    "react-dom": "^16.12.0",
+    "react-icons": "^3.10.0",
+    "react-visibility-sensor": "^5.1.1"
+  }
+}
